@@ -6,7 +6,7 @@ const {DEPLOY_ENV = 'development'} = process.env
  * @type {import('@storybook/core-common').StorybookConfig}
  */
 module.exports = {
-  stories: ['../src/**/*.stories.mdx', '../src/**/*.stories.@(js|jsx|ts|tsx)'],
+  stories: ['../src/**/*.stories.mdx', '../src/**/*.mdx', '../src/**/*.stories.@(js|jsx|ts|tsx)'],
   addons: [
     {
       name: '@storybook/addon-essentials',
